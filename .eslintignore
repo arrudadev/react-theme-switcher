@@ -1,0 +1,4 @@
+*.html
+react-app-env.d.ts
+prettier.config.js
+commitlint.config.js
