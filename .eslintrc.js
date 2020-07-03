@@ -41,10 +41,11 @@ module.exports = {
       'warn',
       {
         newlinesBetween: 'always',
-        groups: [
-          '/^express/',
+        groups: [          
           '/^react/',
           'module',
+          '/\/assets/',
+          '/\/styles/',
           ['parent', 'sibling', 'index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true },
@@ -67,5 +68,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'lines-between-class-members': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'jsx-a11y/anchor-is-valid': 'off'
   },
 };
