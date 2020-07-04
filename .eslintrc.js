@@ -68,6 +68,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'lines-between-class-members': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'jsx-a11y/anchor-is-valid': 'off'
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/prop-types': 'off'
   },
 };

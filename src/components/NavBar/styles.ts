@@ -10,7 +10,6 @@ export const Nav = styled.nav`
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-width: 0 0 1px;
-  background-color: black;
 `;
 
 export const Content = styled.div`
@@ -40,7 +39,7 @@ export const NavItems = styled.div`
         padding: 10px 15px;
         color: #8671a7;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 16px;
         text-decoration: none;
       }
     }
@@ -50,4 +49,11 @@ export const NavItems = styled.div`
 export const MenuToggleButton = styled.button`
   width: 32px;
   height: 32px;
+  background-color: transparent;
+  border: none;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `;
