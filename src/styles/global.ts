@@ -20,12 +20,13 @@ export default createGlobalStyle`
   }
   
   body, input, button {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
     color: var(--title-color);
-    font-family: Ubuntu;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
   }
 
   body html #root {

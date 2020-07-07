@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 
-import logo from '../../assets/logo.png';
-
 import { Container } from '../../styles/styles';
 import { Nav, Content, Brand, NavItems, MenuToggleButton } from './styles';
 
@@ -21,9 +19,7 @@ const NavBar = () => {
       <Nav>
         <Container>
           <Content>
-            <Brand>
-              <img src={logo} alt="logo" />
-            </Brand>
+            <Brand>ThemeSwitcher</Brand>
             <NavItems>
               <MenuItems />
               <MenuToggleButton onClick={handleDrawerToggle}>

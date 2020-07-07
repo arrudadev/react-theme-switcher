@@ -18,8 +18,9 @@ export const Content = styled.div`
   grid-template-columns: 190px 1fr;
 `;
 
-export const Brand = styled.div`
+export const Brand = styled.h1`
   width: 190px;
+  font-size: 32px;
 `;
 
 export const NavItems = styled.div`
