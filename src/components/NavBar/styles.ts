@@ -14,13 +14,23 @@ export const Nav = styled.nav`
 
 export const Content = styled.div`
   width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
   display: grid;
   grid-template-columns: 190px 1fr;
+
+  @media (min-width: 1200px) {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
 `;
 
 export const Brand = styled.h1`
   width: 190px;
   font-size: 32px;
+  color: #fff;
 `;
 
 export const NavItems = styled.div`
@@ -38,7 +48,7 @@ export const NavItems = styled.div`
     li {
       a {
         padding: 10px 15px;
-        color: #8671a7;
+        color: rgba(255, 255, 255, 0.7);
         font-weight: 600;
         font-size: 16px;
         text-decoration: none;
