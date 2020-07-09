@@ -8,7 +8,13 @@ export default createGlobalStyle`
   }
   
   body {
-    background: #F0F0F5;
+    margin: 0;    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
     -webkit-font-smoothing: antialiased;    
   }
   

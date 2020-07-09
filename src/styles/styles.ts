@@ -4,7 +4,7 @@ interface ContainerProps {
   paddingTop?: number | string;
 }
 interface RowProps {
-  justifyContentCenter: boolean;
+  justifyContentCenter?: boolean;
 }
 
 export const Container = styled.div<ContainerProps>`
