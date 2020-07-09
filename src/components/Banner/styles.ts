@@ -95,13 +95,13 @@ export const ImageContent = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px) and (min-width: 575px) {
     img {
       width: 60%;
     }
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 991px) and (min-width: 768px) {
     img {
       width: 50%;
     }
