@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-import BannerBackground from '../../assets/banner-background.jpg';
+import BannerBackground from '../../assets/backgrounds/banner-background.jpg';
 
 export const Section = styled.section`
   width: 100%;
