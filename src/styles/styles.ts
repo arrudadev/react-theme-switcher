@@ -59,3 +59,36 @@ export const LinkButton = styled.a`
   background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
   position: relative;
 `;
+
+export const SectionTitle = styled.div`
+  text-align: center;
+  padding-bottom: 30px;
+
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 1.2;
+    margin-top: 0;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #5846f9;
+      bottom: 0;
+      left: calc(50% - 25px);
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+`;
