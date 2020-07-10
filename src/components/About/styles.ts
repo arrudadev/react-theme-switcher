@@ -74,3 +74,9 @@ export const Icon = styled.i`
   color: #5846f9;
   margin-right: 10px;
 `;
+
+export const LinkButtonIcon = styled.i`
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+`;

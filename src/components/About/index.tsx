@@ -1,9 +1,9 @@
 import React from 'react';
-import { FiCheckCircle } from 'react-icons/fi';
+import { FiCheckCircle, FiArrowRight } from 'react-icons/fi';
 
 import AboutImg from '../../assets/about.jpg';
 
-import { Container, Row } from '../../styles/styles';
+import { Container, Row, LinkButton } from '../../styles/styles';
 import {
   Section,
   TitleContent,
@@ -13,6 +13,7 @@ import {
   List,
   ListItem,
   Icon,
+  LinkButtonIcon,
 } from './styles';
 
 const About = () => {
@@ -48,6 +49,12 @@ const About = () => {
                 storacalaperda mastiro dolore eu fugiat nulla pariatur.
               </ListItem>
             </List>
+            <LinkButton>
+              Read More
+              <LinkButtonIcon>
+                <FiArrowRight />
+              </LinkButtonIcon>
+            </LinkButton>
           </TitleContent>
           <ImageContent>
             <img src={AboutImg} alt="about" />
