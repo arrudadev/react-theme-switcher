@@ -1,12 +1,25 @@
 import styled from 'styled-components';
 
+import { ReactComponent as Background1 } from '../../assets/services-icons-backgrounds/background-1.svg';
+import { ReactComponent as Background2 } from '../../assets/services-icons-backgrounds/background-2.svg';
+import { ReactComponent as Background3 } from '../../assets/services-icons-backgrounds/background-3.svg';
+import { ReactComponent as Background4 } from '../../assets/services-icons-backgrounds/background-4.svg';
+import { ReactComponent as Background5 } from '../../assets/services-icons-backgrounds/background-5.svg';
+import { ReactComponent as Background6 } from '../../assets/services-icons-backgrounds/background-6.svg';
+
+interface ServiceItemProps {
+  marginTop?: string;
+  disableMarginTopInLargeWidth?: boolean;
+  disableMarginTopInMediumWidth?: boolean;
+}
+
 export const Section = styled.section`
   background-color: #f9f8ff;
   padding: 100px 0;
   overflow: hidden;
 `;
 
-export const ServiceItem = styled.div`
+export const ServiceItem = styled.div<ServiceItemProps>`
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -15,15 +28,34 @@ export const ServiceItem = styled.div`
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: ${props => (props.marginTop ? props.marginTop : 'unset')};
 
   @media (min-width: 768px) {
     flex: 0 0 50%;
     max-width: 50%;
+    margin-top: ${props => {
+      if (props.disableMarginTopInMediumWidth) {
+        return '0 !important';
+      }
+      if (props.marginTop) {
+        return props.marginTop;
+      }
+      return 'unset';
+    }};
   }
 
   @media (min-width: 992px) {
     flex: 0 0 33%;
     max-width: 33%;
+    margin-top: ${props => {
+      if (props.disableMarginTopInLargeWidth) {
+        return '0 !important';
+      }
+      if (props.marginTop) {
+        return props.marginTop;
+      }
+      return 'unset';
+    }};
   }
 `;
 
@@ -61,7 +93,42 @@ export const IconBox = styled.div`
 `;
 
 export const Icon = styled.div`
-  font-size: 36px;
   transition: 0.5s;
   position: relative;
+`;
+
+export const IconBackground1 = styled(Background1)`
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const IconBackground2 = styled(Background2)`
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const IconBackground3 = styled(Background3)`
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const IconBackground4 = styled(Background4)`
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const IconBackground5 = styled(Background5)`
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const IconBackground6 = styled(Background6)`
+  position: absolute;
+  top: 0;
+  left: 0;
 `;
