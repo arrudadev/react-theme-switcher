@@ -13,6 +13,10 @@ interface ServiceItemProps {
   disableMarginTopInMediumWidth?: boolean;
 }
 
+interface ServiceItemContentProps {
+  hoverIconBackgroundColor: string;
+}
+
 export const Section = styled.section`
   background-color: #f9f8ff;
   padding: 100px 0;
@@ -59,11 +63,29 @@ export const ServiceItem = styled.div<ServiceItemProps>`
   }
 `;
 
-export const ServiceItemContent = styled.div`
+export const ServiceItemContent = styled.div<ServiceItemContentProps>`
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+
+  svg {
+    path {
+      transition: 0.5s;
+    }
+  }
+
+  &:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+
+    svg {
+      color: #fff !important;
+      path {
+        fill: ${props => props.hoverIconBackgroundColor};
+      }
+    }
+  }
 
   h4 {
     font-weight: 600;

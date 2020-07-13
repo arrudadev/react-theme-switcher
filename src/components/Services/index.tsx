@@ -1,6 +1,13 @@
 import React from 'react';
-import { FaReact } from 'react-icons/fa';
-import { FiFileText, FiClock } from 'react-icons/fi';
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import {
+  FiCoffee,
+  FiFileText,
+  FiClock,
+  FiShare2,
+  FiMonitor,
+  FiShare,
+} from 'react-icons/fi';
 
 import { Container, SectionTitle, Row } from '../../styles/styles';
 import {
@@ -32,11 +39,11 @@ const Services = () => {
         </SectionTitle>
         <Row>
           <ServiceItem>
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#47aeff">
               <IconBox>
                 <IconBackground1 />
                 <Icon>
-                  <FaReact size={36} color="#47aeff" />
+                  <FiCoffee size={36} color="#47aeff" />
                 </Icon>
               </IconBox>
               <h4>Lorem Ipsum</h4>
@@ -47,7 +54,7 @@ const Services = () => {
             </ServiceItemContent>
           </ServiceItem>
           <ServiceItem disableMarginTopInMediumWidth marginTop="1.5em">
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#ffa76e">
               <IconBox>
                 <IconBackground2 />
                 <Icon>
@@ -62,7 +69,7 @@ const Services = () => {
             </ServiceItemContent>
           </ServiceItem>
           <ServiceItem disableMarginTopInLargeWidth marginTop="1.5em">
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#e80368">
               <IconBox>
                 <IconBackground3 />
                 <Icon>
@@ -77,11 +84,11 @@ const Services = () => {
             </ServiceItemContent>
           </ServiceItem>
           <ServiceItem marginTop="1.5em">
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#ffbb2c">
               <IconBox>
                 <IconBackground4 />
                 <Icon>
-                  <FaReact size={36} color="#47aeff" />
+                  <FiShare2 size={36} color="#ffbb2c" />
                 </Icon>
               </IconBox>
               <h4>Lorem Ipsum</h4>
@@ -92,11 +99,11 @@ const Services = () => {
             </ServiceItemContent>
           </ServiceItem>
           <ServiceItem marginTop="1.5em">
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#ff5828">
               <IconBox>
                 <IconBackground5 />
                 <Icon>
-                  <FaReact size={36} color="#47aeff" />
+                  <FiMonitor size={36} color="#ff5828" />
                 </Icon>
               </IconBox>
               <h4>Lorem Ipsum</h4>
@@ -107,11 +114,11 @@ const Services = () => {
             </ServiceItemContent>
           </ServiceItem>
           <ServiceItem marginTop="1.5em">
-            <ServiceItemContent>
+            <ServiceItemContent hoverIconBackgroundColor="#026e00">
               <IconBox>
                 <IconBackground6 />
                 <Icon>
-                  <FaReact size={36} color="#47aeff" />
+                  <FiShare size={36} color="#026e00" />
                 </Icon>
               </IconBox>
               <h4>Lorem Ipsum</h4>
