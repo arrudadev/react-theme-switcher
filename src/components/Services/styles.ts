@@ -18,7 +18,7 @@ interface ServiceItemContentProps {
 }
 
 export const Section = styled.section`
-  background-color: #f7f7f7;
+  background-color: #f0f0f5;
   padding: 100px 0;
   overflow: hidden;
 `;
