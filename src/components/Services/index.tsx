@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
 import {
   FiCoffee,
   FiFileText,
