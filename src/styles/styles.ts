@@ -7,6 +7,11 @@ interface RowProps {
   justifyContentCenter?: boolean;
 }
 
+export const Section = styled.section`
+  padding: 100px 0;
+  overflow: hidden;
+`;
+
 export const Container = styled.div<ContainerProps>`
   padding-right: 15px;
   padding-left: 15px;
