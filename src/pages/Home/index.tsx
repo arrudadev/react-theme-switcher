@@ -5,6 +5,7 @@ import Banner from '../../components/Banner';
 import Clients from '../../components/Clients';
 import Features from '../../components/Features';
 import Header from '../../components/Header';
+import Pricing from '../../components/Pricing';
 import Services from '../../components/Services';
 import Team from '../../components/Team';
 import Technologies from '../../components/Technologies';
@@ -22,6 +23,7 @@ const Home = () => {
       <Technologies />
       <Testimonials />
       <Team />
+      <Pricing />
     </>
   );
 };

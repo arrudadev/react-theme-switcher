@@ -52,6 +52,20 @@ export const Row = styled.div<RowProps>`
     props.justifyContentCenter ? 'center' : 'unset'};
 `;
 
+export const StyledButton = styled.a`
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  position: relative;
+  cursor: pointer;
+`;
+
 export const LinkButton = styled.a`
   font-weight: 500;
   font-size: 16px;
@@ -63,6 +77,7 @@ export const LinkButton = styled.a`
   color: #fff;
   background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
   position: relative;
+  cursor: pointer;
 `;
 
 export const SectionTitle = styled.div`
