@@ -3,6 +3,7 @@ import React from 'react';
 import About from '../../components/About';
 import Banner from '../../components/Banner';
 import Clients from '../../components/Clients';
+import FAQ from '../../components/FAQ';
 import Features from '../../components/Features';
 import Header from '../../components/Header';
 import Pricing from '../../components/Pricing';
@@ -24,6 +25,7 @@ const Home = () => {
       <Testimonials />
       <Team />
       <Pricing />
+      <FAQ />
     </>
   );
 };

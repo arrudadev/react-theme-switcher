@@ -113,3 +113,17 @@ export const SectionTitle = styled.div`
     color: #848484;
   }
 `;
+
+export const SectionTitleWhite = styled(SectionTitle)`
+  h2 {
+    color: #fff;
+
+    &:after {
+      background: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+`;
