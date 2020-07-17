@@ -31,6 +31,10 @@ export const FaqList = styled.div`
       }
     }
   }
+
+  @media (max-width: 1200px) {
+    padding: 0;
+  }
 `;
 
 export const HelpIcon = styled.i`
