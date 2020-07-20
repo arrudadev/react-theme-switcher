@@ -1,6 +1,7 @@
 import React from 'react';
 
 import About from '../../components/About';
+import BackToTop from '../../components/BackToTop';
 import Banner from '../../components/Banner';
 import Clients from '../../components/Clients';
 import Contact from '../../components/Contact';
@@ -30,6 +31,7 @@ const Home = () => {
       <FAQ />
       <Contact />
       <Footer />
+      <BackToTop />
     </>
   );
 };
