@@ -6,6 +6,7 @@ import Clients from '../../components/Clients';
 import Contact from '../../components/Contact';
 import FAQ from '../../components/FAQ';
 import Features from '../../components/Features';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Pricing from '../../components/Pricing';
 import Services from '../../components/Services';
@@ -28,6 +29,7 @@ const Home = () => {
       <Pricing />
       <FAQ />
       <Contact />
+      <Footer />
     </>
   );
 };
