@@ -1,15 +1,22 @@
 import styled from 'styled-components';
 
-export const Nav = styled.nav`
+interface NavProps {
+  isScrolled: boolean;
+}
+
+export const Nav = styled.nav<NavProps>`
   min-height: 50px;
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
-  padding: 35px 0px;
+  padding: 12px 0px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-width: 0 0 1px;
+  transition: all 0.3s ease-in-out;
+  background-color: ${props =>
+    props.isScrolled ? 'rgba(24, 6, 185, 0.8)' : 'transparent'};
 `;
 
 export const Content = styled.div`
