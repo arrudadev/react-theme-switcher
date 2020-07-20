@@ -69,6 +69,7 @@ module.exports = {
     'lines-between-class-members': 'off',
     'import/no-extraneous-dependencies': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'no-restricted-syntax': 'off'
   },
 };

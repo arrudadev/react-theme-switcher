@@ -53,8 +53,8 @@ export const NavItems = styled.div`
     }
 
     li {
+      padding: 10px 15px;
       a {
-        padding: 10px 15px;
         color: rgba(255, 255, 255, 0.7);
         font-weight: 600;
         font-size: 16px;
