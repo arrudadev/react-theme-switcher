@@ -18,7 +18,7 @@ interface ServiceItemContentProps {
 }
 
 export const Section = styled.section`
-  background-color: #f0f0f5;
+  background-color: ${props => props.theme.colors.services.sectionBackground};
   padding: 100px 0;
   overflow: hidden;
 `;
@@ -67,7 +67,7 @@ export const ServiceItemContent = styled.div<ServiceItemContentProps>`
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: ${props => props.theme.colors.services.itemBackground};
 
   svg {
     path {
@@ -76,11 +76,12 @@ export const ServiceItemContent = styled.div<ServiceItemContentProps>`
   }
 
   &:hover {
-    border-color: #fff;
-    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    border-color: ${props => props.theme.colors.services.onHover.border};
+    box-shadow: 0px 0 25px 0
+      ${props => props.theme.colors.services.onHover.boxShadow};
 
     svg {
-      color: #fff !important;
+      color: ${props => props.theme.colors.services.onHover.svg} !important;
       path {
         fill: ${props => props.hoverIconBackgroundColor};
       }
@@ -92,7 +93,7 @@ export const ServiceItemContent = styled.div<ServiceItemContentProps>`
     margin: 10px 0 15px 0;
     font-size: 22px;
     line-height: 1.2;
-    color: #2c4964;
+    color: ${props => props.theme.colors.services.title};
     transition: ease-in-out 0.3s;
   }
 

@@ -22,5 +22,17 @@ export default {
       title: '#2c4964',
       icon: '#5846f9',
     },
+
+    services: {
+      sectionBackground: '#f0f0f5',
+      itemBackground: '#fff',
+      title: '#2c4964',
+
+      onHover: {
+        border: '#fff',
+        boxShadow: 'rgba(0, 0, 0, 0.1)',
+        svg: '#fff',
+      },
+    },
   },
 };

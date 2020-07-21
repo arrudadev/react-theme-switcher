@@ -25,6 +25,18 @@ declare module 'styled-components' {
         title: string;
         icon: string;
       };
+
+      services: {
+        sectionBackground: string;
+        itemBackground: string;
+        title: string;
+
+        onHover: {
+          border: string;
+          boxShadow: string;
+          svg: string;
+        };
+      };
     };
   }
 }
