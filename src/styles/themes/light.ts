@@ -17,5 +17,10 @@ export default {
       title: '#fff',
       subTitle: 'rgba(255, 255, 255, 0.8)',
     },
+
+    about: {
+      title: '#2c4964',
+      icon: '#5846f9',
+    },
   },
 };

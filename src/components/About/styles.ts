@@ -45,7 +45,7 @@ export const ImageContent = styled(Content)`
 export const Title = styled.h3`
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: ${props => props.theme.colors.about.title};
   line-height: 1.2;
   margin-top: 0;
 `;
@@ -71,7 +71,7 @@ export const ListItem = styled.li`
 export const Icon = styled.i`
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: ${props => props.theme.colors.about.icon};
   margin-right: 10px;
 `;
 

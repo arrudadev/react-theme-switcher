@@ -20,6 +20,11 @@ declare module 'styled-components' {
         title: string;
         subTitle: string;
       };
+
+      about: {
+        title: string;
+        icon: string;
+      };
     };
   }
 }
