@@ -64,7 +64,7 @@ export const FeatureItem = styled.div<FeatureItemProps>`
 
   p {
     font-size: 15px;
-    color: #848484;
+    color: ${props => props.theme.colors.features.text};
     margin-left: 60px;
   }
 

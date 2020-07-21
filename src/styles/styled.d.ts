@@ -37,6 +37,10 @@ declare module 'styled-components' {
           svg: string;
         };
       };
+
+      features: {
+        text: string;
+      };
     };
   }
 }

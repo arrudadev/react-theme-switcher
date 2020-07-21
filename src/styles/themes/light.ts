@@ -34,5 +34,9 @@ export default {
         svg: '#fff',
       },
     },
+
+    features: {
+      text: '#848484',
+    },
   },
 };
