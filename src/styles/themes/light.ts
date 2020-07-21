@@ -38,5 +38,10 @@ export default {
     features: {
       text: '#848484',
     },
+
+    technologies: {
+      sectionBackground: '#f0f0f5',
+      text: '#848484',
+    },
   },
 };

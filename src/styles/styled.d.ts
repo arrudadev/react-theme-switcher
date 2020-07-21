@@ -41,6 +41,11 @@ declare module 'styled-components' {
       features: {
         text: string;
       };
+
+      technologies: {
+        sectionBackground: string;
+        text: string;
+      };
     };
   }
 }

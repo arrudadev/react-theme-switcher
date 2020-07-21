@@ -12,7 +12,8 @@ interface RowProps {
 }
 
 export const Section = styled.section`
-  background-color: #f0f0f5;
+  background-color: ${props =>
+    props.theme.colors.technologies.sectionBackground};
   padding: 100px 0;
   overflow: hidden;
 `;
@@ -67,7 +68,7 @@ export const TechnologiesContentText = styled.div<TechnologiesContentProps>`
     font-style: italic !important;
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #848484;
+    color: ${props => props.theme.colors.technologies.text};
   }
 
   ul {
