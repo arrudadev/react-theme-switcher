@@ -5,8 +5,8 @@ import ClientsBackground from '../../assets/backgrounds/clients-background.png';
 export const Section = styled.section`
   background: linear-gradient(
       90deg,
-      rgba(88, 70, 249, 0.5) 0%,
-      rgba(123, 39, 216, 0.5) 100%
+      ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+      ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
     ),
     url(${ClientsBackground}) center center no-repeat;
   padding: 15px 0;
