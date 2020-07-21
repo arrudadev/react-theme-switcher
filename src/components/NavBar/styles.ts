@@ -16,7 +16,9 @@ export const Nav = styled.nav<NavProps>`
   border-width: 0 0 1px;
   transition: all 0.3s ease-in-out;
   background-color: ${props =>
-    props.isScrolled ? 'rgba(24, 6, 185, 0.8)' : 'transparent'};
+    props.isScrolled
+      ? props.theme.colors.navBar.scrolledBackground
+      : 'transparent'};
 `;
 
 export const Content = styled.div`
@@ -37,7 +39,7 @@ export const Content = styled.div`
 export const Brand = styled.h1`
   width: 190px;
   font-size: 32px;
-  color: #fff;
+  color: ${props => props.theme.colors.navBar.brand};
 `;
 
 export const NavItems = styled.div`
@@ -55,7 +57,7 @@ export const NavItems = styled.div`
     li {
       padding: 10px 15px;
       a {
-        color: rgba(255, 255, 255, 0.7);
+        color: ${props => props.theme.colors.navBar.linkText};
         font-weight: 600;
         font-size: 16px;
         text-decoration: none;

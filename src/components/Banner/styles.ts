@@ -11,8 +11,8 @@ export const Section = styled.section`
 
   background: linear-gradient(
       45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
+      ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+      ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
     ),
     url(${BannerBackground}) center center no-repeat;
   background-size: cover;
@@ -124,11 +124,11 @@ export const Title = styled.h1`
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: ${props => props.theme.colors.banner.title};
 `;
 
 export const SubTitle = styled.h2`
-  color: rgba(255, 255, 255, 0.8);
+  color: ${props => props.theme.colors.banner.subTitle};
   margin: 10px 0 0 0;
   font-size: 20px;
   font-weight: 500;
