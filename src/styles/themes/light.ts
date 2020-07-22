@@ -89,5 +89,17 @@ export default {
       questionBackground: '#fff',
       questionText: '#2c4964',
     },
+
+    contact: {
+      boxShadow: 'rgba(214, 215, 216, 0.6)',
+      background: '#fff',
+      title: '#777777',
+
+      form: {
+        inputText: '#495057',
+        background: '#fff',
+        border: '#ced4da',
+      },
+    },
   },
 };

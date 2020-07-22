@@ -92,6 +92,18 @@ declare module 'styled-components' {
         questionBackground: string;
         questionText: string;
       };
+
+      contact: {
+        boxShadow: string;
+        background: string;
+        title: string;
+
+        form: {
+          inputText: string;
+          background: string;
+          border: string;
+        };
+      };
     };
   }
 }

@@ -20,9 +20,9 @@ export const ContentForm = styled.div`
   margin-top: 1.5em !important;
 
   form {
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    box-shadow: 0 0 30px ${props => props.theme.colors.contact.boxShadow};
     padding: 30px;
-    background: #fff;
+    background: ${props => props.theme.colors.contact.background};
   }
 
   @media (min-width: 992px) {
@@ -45,16 +45,15 @@ export const BoxInfo = styled.div`
 `;
 
 export const BoxInfoContent = styled.div`
-  color: #2d405f;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px ${props => props.theme.colors.contact.boxShadow};
   padding: 20px 0 30px 0;
-  background: #fff;
+  background: ${props => props.theme.colors.contact.background};
   margin-top: 1.5em !important;
 
   h3 {
     font-size: 20px;
-    color: #777777;
+    color: ${props => props.theme.colors.contact.title};
     font-weight: 700;
     margin: 10px 0;
     line-height: 1.2;
@@ -84,16 +83,15 @@ export const BoxInfoSocialMedia = styled.div`
 `;
 
 export const BoxInfoSocialMediaContent = styled.div`
-  color: #2d405f;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px ${props => props.theme.colors.contact.boxShadow};
   padding: 20px 0 10px 0;
-  background: #fff;
+  background: ${props => props.theme.colors.contact.background};
   margin-top: 1.5em !important;
 
   h3 {
     font-size: 20px;
-    color: #777777;
+    color: ${props => props.theme.colors.contact.title};
     font-weight: 700;
     margin: 10px 0;
     line-height: 1.2;
@@ -135,10 +133,10 @@ export const FormRowItem = styled.div`
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: ${props => props.theme.colors.contact.form.inputText};
+    background-color: ${props => props.theme.colors.contact.form.background};
     background-clip: padding-box;
-    border: 1px solid #ced4da !important;
+    border: 1px solid ${props => props.theme.colors.contact.form.border} !important;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin: 0;
@@ -161,10 +159,10 @@ export const FormItem = styled.div`
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: ${props => props.theme.colors.contact.form.inputText};
+    background-color: ${props => props.theme.colors.contact.form.background};
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid ${props => props.theme.colors.contact.form.border};
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin: 0;
