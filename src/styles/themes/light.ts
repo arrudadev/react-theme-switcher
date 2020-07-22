@@ -53,5 +53,20 @@ export default {
       commentBackground: '#fff',
       commentBoxShadow: 'rgba(0, 0, 0, 0.1)',
     },
+
+    team: {
+      memberName: '#fff',
+      memberOccupation: '#fff',
+      memberSocialMedia: 'rgba(255, 255, 255, 0.7)',
+      memberBackground: '#343a40',
+
+      onHover: {
+        backgroundLinearGradient: {
+          primary: 'rgba(12, 17, 26, 0.9)',
+          secondary: 'rgba(20, 29, 43, 0.8)',
+          tertiary: 'rgba(0, 212, 255, 0)',
+        },
+      },
+    },
   },
 };

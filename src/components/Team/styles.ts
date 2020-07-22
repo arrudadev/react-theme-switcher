@@ -27,14 +27,14 @@ export const MemberInfoContent = styled.div`
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 18px;
-    color: #fff;
+    color: ${props => props.theme.colors.team.memberName};
   }
 
   span {
     font-style: italic;
     display: block;
     font-size: 13px;
-    color: #fff;
+    color: ${props => props.theme.colors.team.memberOccupation};
   }
 `;
 
@@ -49,7 +49,7 @@ export const MemberSocialMedia = styled.div`
 
   a {
     transition: color 0.3s;
-    color: rgba(255, 255, 255, 0.7);
+    color: ${props => props.theme.colors.team.memberSocialMedia};
     margin: 0 10px;
     display: inline-block;
   }
@@ -58,7 +58,7 @@ export const MemberSocialMedia = styled.div`
 export const Member = styled.div`
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: ${props => props.theme.colors.team.memberBackground};
   position: relative;
   overflow: hidden;
 
@@ -69,9 +69,15 @@ export const Member = styled.div`
     ${MemberInfo} {
       background: linear-gradient(
         0deg,
-        rgba(12, 17, 26, 0.9) 0%,
-        rgba(20, 29, 43, 0.8) 20%,
-        rgba(0, 212, 255, 0) 100%
+        ${props =>
+            props.theme.colors.team.onHover.backgroundLinearGradient.primary}
+          0%,
+        ${props =>
+            props.theme.colors.team.onHover.backgroundLinearGradient.secondary}
+          20%,
+        ${props =>
+            props.theme.colors.team.onHover.backgroundLinearGradient.tertiary}
+          100%
       );
       opacity: 1;
       transition: 0.4s;

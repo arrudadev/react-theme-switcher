@@ -56,6 +56,21 @@ declare module 'styled-components' {
         commentBackground: string;
         commentBoxShadow: string;
       };
+
+      team: {
+        memberName: string;
+        memberOccupation: string;
+        memberSocialMedia: string;
+        memberBackground: string;
+
+        onHover: {
+          backgroundLinearGradient: {
+            primary: string;
+            secondary: string;
+            tertiary: string;
+          };
+        };
+      };
     };
   }
 }
