@@ -101,5 +101,33 @@ export default {
         border: '#ced4da',
       },
     },
+
+    footer: {
+      text: '#fff',
+      linkText: 'rgba(255, 255, 255, 0.8)',
+
+      formBackground: '#fff',
+      formButtonBackground: 'rgba(123, 39, 216, 0.8)',
+      formButtonText: '#fff',
+      formButtonBoxShadow: 'rgba(0, 0, 0, 0.1)',
+
+      onHover: {
+        formButtonBackground: '#5846f9',
+      },
+
+      copyRight: {
+        borderTop: '#8577fb',
+      },
+
+      credits: {
+        text: '#fff',
+        linkText: '#fff',
+      },
+
+      socialMedia: {
+        background: 'rgba(255, 255, 255, 0.1)',
+        text: '#fff',
+      },
+    },
   },
 };

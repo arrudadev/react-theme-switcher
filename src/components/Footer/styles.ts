@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import FooterBackground from '../../assets/backgrounds/footer-background.jpg';
 
 export const FooterSection = styled.footer`
-  color: #fff;
+  color: ${props => props.theme.colors.footer.text};
   font-size: 14px;
   background: linear-gradient(
       45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
+      ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+      ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
     ),
     url(${FooterBackground}) center center no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@ export const FooterContact = styled.div`
   padding-right: 15px;
   padding-left: 15px;
 
-  color: #fff;
+  color: ${props => props.theme.colors.footer.text};
   font-size: 14px;
 
   h3 {
@@ -92,14 +92,14 @@ export const FooterLinks = styled.div`
       }
 
       a {
-        color: rgba(255, 255, 255, 0.8);
+        color: ${props => props.theme.colors.footer.linkText};
         transition: 0.3s;
         display: inline-block;
         line-height: 1;
 
         &:hover {
           text-decoration: underline;
-          color: #fff;
+          color: ${props => props.theme.colors.footer.text};
           cursor: pointer;
         }
       }
@@ -141,7 +141,7 @@ export const FooterNewsLetter = styled.div`
 
   form {
     margin-top: 30px;
-    background: #fff;
+    background: ${props => props.theme.colors.footer.formBackground};
     padding: 6px 10px;
     position: relative;
     border-radius: 5px;
@@ -164,21 +164,23 @@ export const FooterNewsLetter = styled.div`
       right: -2px;
       bottom: -1px;
       border: 0;
-      background: none;
+      /* background: none; */
       font-size: 16px;
       padding: 0 20px;
-      background: rgba(123, 39, 216, 0.8);
-      color: #fff;
+      background: ${props => props.theme.colors.footer.formButtonBackground};
+      color: ${props => props.theme.colors.footer.text};
       transition: 0.3s;
       border-radius: 0 5px 5px 0;
-      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 2px 15px
+        ${props => props.theme.colors.footer.formButtonBoxShadow};
       cursor: pointer;
       margin: 0;
       font-family: inherit;
       line-height: inherit;
 
       &:hover {
-        background: #5846f9;
+        background: ${props =>
+          props.theme.colors.footer.onHover.formButtonBackground};
       }
     }
   }
@@ -199,7 +201,8 @@ export const FooterNewsLetter = styled.div`
 `;
 
 export const CopyRightSocialMediaContent = styled.div`
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid
+    ${props => props.theme.colors.footer.copyRight.borderTop};
   padding-bottom: 1.5rem !important;
   padding-top: 1.5rem !important;
 
@@ -220,10 +223,10 @@ export const CopyRight = styled.div`
 export const Credits = styled(CopyRight)`
   padding-top: 5px;
   font-size: 13px;
-  color: #fff;
+  color: ${props => props.theme.colors.footer.credits.text};
 
   a {
-    color: #fff;
+    color: ${props => props.theme.colors.footer.credits.linkText};
     text-decoration: none;
     background-color: transparent;
     margin-left: 10px;
@@ -237,8 +240,8 @@ export const SocialMedia = styled.div`
   a {
     font-size: 18px;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    background: ${props => props.theme.colors.footer.socialMedia.background};
+    color: ${props => props.theme.colors.footer.socialMedia.text};
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;

@@ -104,6 +104,34 @@ declare module 'styled-components' {
           border: string;
         };
       };
+
+      footer: {
+        text: string;
+        linkText: string;
+
+        formBackground: string;
+        formButtonBackground: string;
+        formButtonText: string;
+        formButtonBoxShadow: string;
+
+        onHover: {
+          formButtonBackground: string;
+        };
+
+        copyRight: {
+          borderTop: string;
+        };
+
+        credits: {
+          text: string;
+          linkText: string;
+        };
+
+        socialMedia: {
+          background: string;
+          text: string;
+        };
+      };
     };
   }
 }
