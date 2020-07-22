@@ -60,6 +60,7 @@ export const FeatureItem = styled.div<FeatureItemProps>`
     font-weight: 700;
     margin: 5px 0 10px 60px;
     line-height: 1.2;
+    color: ${props => props.theme.colors.features.title};
   }
 
   p {

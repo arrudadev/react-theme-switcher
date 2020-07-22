@@ -102,6 +102,8 @@ export const SectionTitle = styled.div`
     line-height: 1.2;
     margin-top: 0;
 
+    color: ${props => props.theme.colors.sectionTitle.title};
+
     &:after {
       content: '';
       position: absolute;

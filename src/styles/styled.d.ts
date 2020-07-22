@@ -15,6 +15,7 @@ declare module 'styled-components' {
       };
 
       sectionTitle: {
+        title: string;
         titleBorderBackground: string;
         text: string;
       };
@@ -50,6 +51,7 @@ declare module 'styled-components' {
         sectionBackground: string;
         itemBackground: string;
         title: string;
+        svg: string;
 
         onHover: {
           border: string;
@@ -59,10 +61,12 @@ declare module 'styled-components' {
       };
 
       features: {
+        title: string;
         text: string;
       };
 
       technologies: {
+        title: string;
         sectionBackground: string;
         text: string;
       };
@@ -94,7 +98,10 @@ declare module 'styled-components' {
 
       pricing: {
         sectionBackground: string;
+
         planBorder: string;
+        planBackground: string;
+
         pricingBorderBottom: string;
 
         footerBorderTop: string;

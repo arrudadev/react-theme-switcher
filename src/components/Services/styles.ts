@@ -71,6 +71,7 @@ export const ServiceItemContent = styled.div<ServiceItemContentProps>`
 
   svg {
     path {
+      fill: ${props => props.theme.colors.services.svg};
       transition: 0.5s;
     }
   }
@@ -83,7 +84,7 @@ export const ServiceItemContent = styled.div<ServiceItemContentProps>`
     svg {
       color: ${props => props.theme.colors.services.onHover.svg} !important;
       path {
-        fill: ${props => props.hoverIconBackgroundColor};
+        fill: ${props => props.hoverIconBackgroundColor} !important;
       }
     }
   }

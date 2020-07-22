@@ -62,6 +62,7 @@ export const TechnologiesContentText = styled.div<TechnologiesContentProps>`
     margin-top: 0;
     margin-bottom: 0.5rem;
     line-height: 1.2;
+    color: ${props => props.theme.colors.technologies.title};
   }
 
   p {

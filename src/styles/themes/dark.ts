@@ -1,10 +1,10 @@
 export default {
-  title: 'light',
+  title: 'dark',
 
   colors: {
     body: {
-      background: '#fff',
-      text: '#212529',
+      background: '#222',
+      text: 'rgba(255, 255, 255, 0.7)',
     },
 
     button: {
@@ -12,25 +12,25 @@ export default {
     },
 
     sectionTitle: {
-      title: '#212529',
+      title: '#fff',
       titleBorderBackground: '#5846f9',
-      text: '#848484',
+      text: 'rgba(255, 255, 255, 0.7)',
     },
 
     sectionTitleWhite: {
       title: '#fff',
-      titleBorderBackground: 'rgba(255, 255, 255, 0.6)',
+      titleBorderBackground: '#5846f9',
       text: '#fff',
     },
 
     backgroundLinearGradient: {
-      primary: 'rgba(86, 58, 250, 0.9)',
-      secondary: 'rgba(116, 15, 214, 0.9)',
+      primary: 'rgba(12, 18, 15, 0.9)',
+      secondary: 'rgba(63, 7, 117, 0.9)',
     },
 
     navBar: {
       brand: '#fff',
-      scrolledBackground: 'rgba(24, 6, 185, 0.8)',
+      scrolledBackground: 'rgba(12, 18, 15, 0.9)',
       linkText: 'rgba(255, 255, 255, 0.7)',
     },
 
@@ -40,42 +40,42 @@ export default {
     },
 
     about: {
-      title: '#2c4964',
+      title: '#fff',
       icon: '#5846f9',
     },
 
     services: {
-      sectionBackground: '#f0f0f5',
-      itemBackground: '#fff',
-      title: '#2c4964',
-      svg: '#f0f0f5',
+      sectionBackground: '#222',
+      itemBackground: '#333',
+      title: '#fff',
+      svg: '#444',
 
       onHover: {
         border: '#fff',
-        boxShadow: 'rgba(0, 0, 0, 0.1)',
+        boxShadow: 'rgba(255, 255, 255, 0.7)',
         svg: '#fff',
       },
     },
 
     features: {
-      title: '#212529',
-      text: '#848484',
+      title: '#fff',
+      text: 'rgba(255, 255, 255, 0.7)',
     },
 
     technologies: {
-      title: '#212529',
-      sectionBackground: '#f0f0f5',
-      text: '#848484',
+      title: '#fff',
+      sectionBackground: '#333',
+      text: '#999',
     },
 
     testimonials: {
-      avatarBorder: '#fff',
-      avatarBoxShadow: 'rgba(0, 0, 0, 0.1)',
-      avatarName: '#2c4964',
-      avatarOccupation: '#999',
+      avatarBorder: '#444',
+      avatarBoxShadow: 'rgba(255, 255, 255, 0.1)',
+      avatarName: '#fff',
+      avatarOccupation: 'rgba(255, 255, 255, 0.7)',
 
-      commentBackground: '#fff',
-      commentBoxShadow: 'rgba(0, 0, 0, 0.1)',
+      commentBackground: '#333',
+      commentBoxShadow: 'rgba(255, 255, 255, 0.1)',
     },
 
     team: {
@@ -94,37 +94,37 @@ export default {
     },
 
     pricing: {
-      sectionBackground: '#f0f0f5',
+      sectionBackground: '#333',
 
-      planBorder: '#ddd',
-      planBackground: '#f0f0f5',
+      planBorder: '#fff',
+      planBackground: '#333',
 
-      pricingBorderBottom: '#ddd',
+      pricingBorderBottom: '#fff',
 
-      footerBorderTop: '#ddd',
+      footerBorderTop: '#fff',
 
       buttonBackground: '#d3d4dc',
-      buttonText: '#212529',
+      buttonText: '#fff',
 
       onHover: {
         planBorder: '#7b27d8',
-        boxShadow: 'rgba(0, 0, 0, 0.1)',
+        boxShadow: 'rgba(255, 255, 255, 0.7)',
       },
     },
 
     faq: {
-      questionBackground: '#fff',
-      questionText: '#2c4964',
+      questionBackground: '#333',
+      questionText: '#fff',
     },
 
     contact: {
-      boxShadow: 'rgba(214, 215, 216, 0.6)',
-      background: '#fff',
-      title: '#777777',
+      boxShadow: 'rgba(255, 255, 255, 0.1)',
+      background: '#333',
+      title: '#fff',
 
       form: {
-        inputText: '#495057',
-        background: '#fff',
+        inputText: '#fff',
+        background: '#333',
         border: '#ced4da',
       },
     },

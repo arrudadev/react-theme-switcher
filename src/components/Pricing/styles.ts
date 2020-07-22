@@ -29,7 +29,7 @@ export const PlanInfoContainer = styled.div`
   border: 1px solid ${props => props.theme.colors.pricing.planBorder};
   border-radius: 5px;
   width: 100%;
-  background: white;
+  background: ${props => props.theme.colors.pricing.planBackground};
   float: left;
   text-align: center;
   transition: all 0.3s ease-in-out;
@@ -57,6 +57,7 @@ export const PlanInfoContainer = styled.div`
     margin: 20px 0 10px 0;
     transition: all 0.3s ease-in-out;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: ${props => props.theme.colors.pricing.buttonText};
     border-bottom: 1px solid
       ${props => props.theme.colors.pricing.pricingBorderBottom};
   }
