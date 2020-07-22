@@ -60,8 +60,12 @@ export const StyledButton = styled.a`
   padding: 10px 28px 10px 28px;
   border-radius: 5px;
   transition: 0.5s;
-  color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  color: ${props => props.theme.colors.button.text};
+  background: linear-gradient(
+    45deg,
+    ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+    ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
+  );
   position: relative;
   cursor: pointer;
 `;
@@ -74,8 +78,12 @@ export const LinkButton = styled.a`
   padding: 10px 50px 10px 28px;
   border-radius: 5px;
   transition: 0.5s;
-  color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  color: ${props => props.theme.colors.button.text};
+  background: linear-gradient(
+    45deg,
+    ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+    ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
+  );
   position: relative;
   cursor: pointer;
 `;
@@ -100,7 +108,8 @@ export const SectionTitle = styled.div`
       display: block;
       width: 50px;
       height: 3px;
-      background: #5846f9;
+      background: ${props =>
+        props.theme.colors.sectionTitle.titleBorderBackground};
       bottom: 0;
       left: calc(50% - 25px);
     }
@@ -110,20 +119,21 @@ export const SectionTitle = styled.div`
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-    color: #848484;
+    color: ${props => props.theme.colors.sectionTitle.text};
   }
 `;
 
 export const SectionTitleWhite = styled(SectionTitle)`
   h2 {
-    color: #fff;
+    color: ${props => props.theme.colors.sectionTitleWhite.title};
 
     &:after {
-      background: rgba(255, 255, 255, 0.6);
+      background: ${props =>
+        props.theme.colors.sectionTitleWhite.titleBorderBackground};
     }
   }
 
   p {
-    color: #fff;
+    color: ${props => props.theme.colors.sectionTitleWhite.text};
   }
 `;

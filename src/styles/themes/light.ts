@@ -2,6 +2,26 @@ export default {
   title: 'light',
 
   colors: {
+    body: {
+      background: '#fff',
+      text: '#212529',
+    },
+
+    button: {
+      text: '#fff',
+    },
+
+    sectionTitle: {
+      titleBorderBackground: '#5846f9',
+      text: '#848484',
+    },
+
+    sectionTitleWhite: {
+      title: '#fff',
+      titleBorderBackground: 'rgba(255, 255, 255, 0.6)',
+      text: '#fff',
+    },
+
     backgroundLinearGradient: {
       primary: 'rgba(86, 58, 250, 0.9)',
       secondary: 'rgba(116, 15, 214, 0.9)',

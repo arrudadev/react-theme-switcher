@@ -12,9 +12,9 @@ export default createGlobalStyle`
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: ${props => props.theme.colors.body.text};
     text-align: left;
-    background-color: #fff;
+    background-color: ${props => props.theme.colors.body.background};
     -webkit-font-smoothing: antialiased;    
   }
   

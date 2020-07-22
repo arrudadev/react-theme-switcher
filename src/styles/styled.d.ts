@@ -5,6 +5,26 @@ declare module 'styled-components' {
     title: string;
 
     colors: {
+      body: {
+        background: string;
+        text: string;
+      };
+
+      button: {
+        text: string;
+      };
+
+      sectionTitle: {
+        titleBorderBackground: string;
+        text: string;
+      };
+
+      sectionTitleWhite: {
+        title: string;
+        titleBorderBackground: string;
+        text: string;
+      };
+
       backgroundLinearGradient: {
         primary: string;
         secondary: string;
