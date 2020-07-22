@@ -84,5 +84,10 @@ export default {
         boxShadow: 'rgba(0, 0, 0, 0.1)',
       },
     },
+
+    faq: {
+      questionBackground: '#fff',
+      questionText: '#2c4964',
+    },
   },
 };

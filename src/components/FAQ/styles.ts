@@ -3,7 +3,11 @@ import styled from 'styled-components';
 export const Section = styled.section`
   padding: 100px 0;
   overflow: hidden;
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(
+    42deg,
+    ${props => props.theme.colors.backgroundLinearGradient.primary} 0%,
+    ${props => props.theme.colors.backgroundLinearGradient.secondary} 100%
+  );
 `;
 
 export const FaqList = styled.div`
@@ -17,7 +21,7 @@ export const FaqList = styled.div`
 
     li {
       padding: 30px;
-      background: #fff;
+      background: ${props => props.theme.colors.faq.questionBackground};
       border-radius: 5px;
       position: relative;
       margin-top: 15px;
@@ -44,7 +48,7 @@ export const HelpIcon = styled.i`
 `;
 
 export const Question = styled.a`
-  color: #2c4964;
+  color: ${props => props.theme.colors.faq.questionText};
   display: block;
   position: relative;
   font-family: 'Roboto', sans-serif;

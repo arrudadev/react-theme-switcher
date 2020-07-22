@@ -87,6 +87,11 @@ declare module 'styled-components' {
           boxShadow: string;
         };
       };
+
+      faq: {
+        questionBackground: string;
+        questionText: string;
+      };
     };
   }
 }
