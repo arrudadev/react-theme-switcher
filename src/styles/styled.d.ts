@@ -46,6 +46,16 @@ declare module 'styled-components' {
         sectionBackground: string;
         text: string;
       };
+
+      testimonials: {
+        avatarBorder: string;
+        avatarBoxShadow: string;
+        avatarName: string;
+        avatarOccupation: string;
+
+        commentBackground: string;
+        commentBoxShadow: string;
+      };
     };
   }
 }

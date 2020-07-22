@@ -43,5 +43,15 @@ export default {
       sectionBackground: '#f0f0f5',
       text: '#848484',
     },
+
+    testimonials: {
+      avatarBorder: '#fff',
+      avatarBoxShadow: 'rgba(0, 0, 0, 0.1)',
+      avatarName: '#2c4964',
+      avatarOccupation: '#999',
+
+      commentBackground: '#fff',
+      commentBoxShadow: 'rgba(0, 0, 0, 0.1)',
+    },
   },
 };
