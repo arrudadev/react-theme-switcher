@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  background-color: #f0f0f5;
+  background-color: ${props => props.theme.colors.pricing.sectionBackground};
   padding: 100px 0;
   overflow: hidden;
 `;
@@ -26,7 +26,7 @@ export const PlanContainer = styled.div`
 
 export const PlanInfoContainer = styled.div`
   padding-top: 40px;
-  border: 1px solid #ddd;
+  border: 1px solid ${props => props.theme.colors.pricing.planBorder};
   border-radius: 5px;
   width: 100%;
   background: white;
@@ -37,9 +37,11 @@ export const PlanInfoContainer = styled.div`
   &:hover {
     border-width: 6px;
     border-style: solid;
-    border-color: #7b27d8 !important;
+    border-color: ${props =>
+      props.theme.colors.pricing.onHover.planBorder} !important;
     padding-top: 35px;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 30px
+      ${props => props.theme.colors.pricing.onHover.boxShadow};
     transform: scale(1.04);
   }
 
@@ -55,7 +57,8 @@ export const PlanInfoContainer = styled.div`
     margin: 20px 0 10px 0;
     transition: all 0.3s ease-in-out;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid
+      ${props => props.theme.colors.pricing.pricingBorderBottom};
   }
 
   ul {
@@ -72,12 +75,12 @@ export const PlanInfoContainer = styled.div`
 `;
 
 export const PlanFooter = styled.div`
-  border-top: 1px solid #ddd;
+  border-top: 1px solid ${props => props.theme.colors.pricing.footerBorderTop};
   padding: 27px 0px;
 
   button {
-    background: #d3d4dc;
-    color: #fff;
+    background: ${props => props.theme.colors.pricing.buttonBackground};
+    color: ${props => props.theme.colors.pricing.buttonText};
     padding: 15px 30px;
   }
 `;

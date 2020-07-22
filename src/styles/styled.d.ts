@@ -71,6 +71,22 @@ declare module 'styled-components' {
           };
         };
       };
+
+      pricing: {
+        sectionBackground: string;
+        planBorder: string;
+        pricingBorderBottom: string;
+
+        footerBorderTop: string;
+
+        buttonBackground: string;
+        buttonText: string;
+
+        onHover: {
+          planBorder: string;
+          boxShadow: string;
+        };
+      };
     };
   }
 }

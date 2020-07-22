@@ -68,5 +68,21 @@ export default {
         },
       },
     },
+
+    pricing: {
+      sectionBackground: '#f0f0f5',
+      planBorder: '#ddd',
+      pricingBorderBottom: '#ddd',
+
+      footerBorderTop: '#ddd',
+
+      buttonBackground: '#d3d4dc',
+      buttonText: '#fff',
+
+      onHover: {
+        planBorder: '#7b27d8',
+        boxShadow: 'rgba(0, 0, 0, 0.1)',
+      },
+    },
   },
 };
