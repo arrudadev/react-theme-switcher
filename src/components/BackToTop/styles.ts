@@ -27,8 +27,8 @@ export const BackToTopButton = styled.div<BackToTopButtonProps>`
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5846f9;
-  color: #fff;
+  background: ${props => props.theme.colors.backToTop.background};
+  color: ${props => props.theme.colors.backToTop.text};
   transition: all 0.4s;
   cursor: pointer;
 

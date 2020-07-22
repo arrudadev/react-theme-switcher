@@ -129,5 +129,10 @@ export default {
         text: '#fff',
       },
     },
+
+    backToTop: {
+      background: '#5846f9',
+      text: '#fff',
+    },
   },
 };

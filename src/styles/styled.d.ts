@@ -132,6 +132,11 @@ declare module 'styled-components' {
           text: string;
         };
       };
+
+      backToTop: {
+        background: string;
+        text: string;
+      };
     };
   }
 }
