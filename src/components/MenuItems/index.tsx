@@ -3,6 +3,8 @@ import { Link } from 'react-scroll';
 
 import { MenuList, MenuListItem } from './styles';
 
+import ToggleThemeButton from '../ToggleThemeButton';
+
 interface ActiveItems {
   home: {
     isActive: boolean;
@@ -161,6 +163,9 @@ const MenuItems = () => {
         >
           Contact
         </Link>
+      </MenuListItem>
+      <MenuListItem isActive={false}>
+        <ToggleThemeButton />
       </MenuListItem>
     </MenuList>
   );
