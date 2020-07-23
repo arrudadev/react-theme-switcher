@@ -50,7 +50,15 @@ export const NavItems = styled.div`
   ul {
     display: flex;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1380px) {
+      display: none;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1200px) {
+      display: flex;
+    }
+
+    @media (max-width: 1024px) {
       display: none;
     }
 
@@ -73,7 +81,15 @@ export const MenuToggleButton = styled.button`
   border: none;
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1380px) {
+    display: block;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    display: none;
+  }
+
+  @media (max-width: 1024px) {
     display: block;
   }
 `;
