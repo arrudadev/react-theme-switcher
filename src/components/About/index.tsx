@@ -24,31 +24,36 @@ const About = () => {
         <Container>
           <Row>
             <TitleContent>
-              <Title>Voluptatem dignissimos provident quasi corporis</Title>
+              <Title>Single Page Website</Title>
               <Paragraph>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                As the name defines, this type of layout is made to display all
+                the content on just one page, with well-defined sections
+                displaying the contents
               </Paragraph>
               <List>
                 <ListItem>
                   <Icon>
                     <FiCheckCircle />
                   </Icon>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  React Scroll Library to vertical scrolling effect
                 </ListItem>
                 <ListItem>
                   <Icon>
                     <FiCheckCircle />
                   </Icon>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  Styled Components
                 </ListItem>
                 <ListItem>
                   <Icon>
                     <FiCheckCircle />
                   </Icon>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta
-                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  React Context API
+                </ListItem>
+                <ListItem>
+                  <Icon>
+                    <FiCheckCircle />
+                  </Icon>
+                  Lorem Ipsum Text
                 </ListItem>
               </List>
               <LinkButton>

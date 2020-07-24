@@ -91,7 +91,7 @@ export const FooterLinks = styled.div`
         line-height: 1;
       }
 
-      a {
+      span {
         color: ${props => props.theme.colors.footer.linkText};
         transition: 0.3s;
         display: inline-block;

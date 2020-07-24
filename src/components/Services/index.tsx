@@ -32,10 +32,10 @@ const Services = () => {
           <SectionTitle>
             <h2>Services</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
             </p>
           </SectionTitle>
           <Row>
@@ -47,10 +47,10 @@ const Services = () => {
                     <FiCoffee size={36} color="#47aeff" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>Coffee</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
                 </p>
               </ServiceItemContent>
             </ServiceItem>
@@ -62,10 +62,11 @@ const Services = () => {
                     <FiFileText size={36} color="#ffa76e" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>Code</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  predefined chunks as necessary, making this the first true
+                  generator on the Internet.
                 </p>
               </ServiceItemContent>
             </ServiceItem>
@@ -77,10 +78,11 @@ const Services = () => {
                     <FiClock size={36} color="#e80368" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>Productive</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  If you are going to use a passage of Lorem Ipsum, you need to
+                  be sure there no anything embarrassing hidden in the middle of
+                  text.
                 </p>
               </ServiceItemContent>
             </ServiceItem>
@@ -92,10 +94,10 @@ const Services = () => {
                     <FiShare2 size={36} color="#ffbb2c" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>GitHub</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  It uses a dictionary of over 200 Latin words, combined with a
+                  handful of model sentence structures.
                 </p>
               </ServiceItemContent>
             </ServiceItem>
@@ -107,10 +109,11 @@ const Services = () => {
                     <FiMonitor size={36} color="#ff5828" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>React</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  To generate Lorem Ipsum which looks reasonable. The generated
+                  Lorem Ipsum is therefore always free from repetition, injected
+                  humour.
                 </p>
               </ServiceItemContent>
             </ServiceItem>
@@ -122,10 +125,10 @@ const Services = () => {
                     <FiShare size={36} color="#026e00" />
                   </Icon>
                 </IconBox>
-                <h4>Lorem Ipsum</h4>
+                <h4>GitHub Pages</h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  The standard chunk of Lorem Ipsum used since the 1500s is
+                  reproduced below for those interested.
                 </p>
               </ServiceItemContent>
             </ServiceItem>

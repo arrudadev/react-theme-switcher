@@ -32,6 +32,7 @@ const Contact = () => {
         <Container>
           <SectionTitle>
             <h2>Contact</h2>
+            <p>Example off Contact form section</p>
           </SectionTitle>
           <Row>
             <ContentInfo>
@@ -51,7 +52,7 @@ const Contact = () => {
                       <FiPhoneCall size={32} color="#8577fb" />
                     </BoxIcon>
                     <h3>Phone</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>(11) 94466-9637</p>
                   </BoxInfoContent>
                 </BoxInfo>
                 <BoxInfoSocialMedia>

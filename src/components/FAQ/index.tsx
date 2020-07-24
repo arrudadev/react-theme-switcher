@@ -18,37 +18,36 @@ const FAQ = () => {
     {
       index: 0,
       isOpened: true,
-      title: 'Non consectetur a erat nam at lectus urna duis?',
+      title: 'What is FAQ?',
       answer:
-        'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+        'A list of questions and answers relating to a particular subject, especially one giving basic information for users of a website.',
     },
     {
       index: 1,
       isOpened: false,
-      title: 'Non consectetur a erat nam at lectus urna duis?',
+      title: 'What is Styled Components?',
       answer:
-        'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+        'React Library that help you to create styles with javascript files. In Style Components you will create React Components to style your page.',
     },
     {
       index: 2,
       isOpened: false,
-      title: 'Non consectetur a erat nam at lectus urna duis?',
+      title: 'What is Context API?',
       answer:
-        'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+        'The Context API is a component structure provided by the React framework, which enables us to share specific forms of data across all levels of the application.',
     },
     {
       index: 3,
       isOpened: false,
-      title: 'Non consectetur a erat nam at lectus urna duis?',
+      title: 'what is lorem ipsum?',
       answer:
-        'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+        'The expression Lorem ipsum in graphic design and publishing is a standard Latin text used in graphic production to fill the text spaces in publications to test and adjust visual aspects before using real content.',
     },
     {
       index: 4,
       isOpened: false,
-      title: 'Non consectetur a erat nam at lectus urna duis?',
-      answer:
-        'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+      title: 'How to Contact the Developer?',
+      answer: 'Follow me in Social Media (GitHub, Linkedin)',
     },
   ]);
 

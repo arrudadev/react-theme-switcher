@@ -13,9 +13,16 @@ const Banner = () => {
         <ContainerFluid paddingTop={84}>
           <Row justifyContentCenter>
             <TitleContent>
-              <Title>Better Digital Experience With Techie</Title>
+              <Title>React Theme Switcher</Title>
               <SubTitle>
-                We are team of talanted designers making websites with Bootstrap
+                Developed with React, Styled Components and Context API
+                <br />
+                <a href="https://github.com/monteiro-alexandre/react-theme-switcher">
+                  <img
+                    src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/monteiro-alexandre)"
+                    alt="GitHub repository badge"
+                  />
+                </a>
               </SubTitle>
             </TitleContent>
             <ImageContent>

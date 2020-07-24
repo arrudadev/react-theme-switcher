@@ -40,23 +40,23 @@ const Footer = () => {
               <ul>
                 <li>
                   <FaChevronRight />
-                  <a>Home</a>
+                  <span>Home</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>About</a>
+                  <span>About</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Service</a>
+                  <span>Service</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Terms of Service</a>
+                  <span>Terms of Service</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Privacy Policy</a>
+                  <span>Privacy Policy</span>
                 </li>
               </ul>
             </FooterLinks>
@@ -65,32 +65,29 @@ const Footer = () => {
               <ul>
                 <li>
                   <FaChevronRight />
-                  <a>Web Design</a>
+                  <span>Web Design</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Web Development</a>
+                  <span>Web Development</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Product Management</a>
+                  <span>Javascript Developer</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Marketing</a>
+                  <span>React Developer</span>
                 </li>
                 <li>
                   <FaChevronRight />
-                  <a>Graphic Design</a>
+                  <span>NodeJs Developer</span>
                 </li>
               </ul>
             </FooterLinks>
             <FooterNewsLetter>
               <h4>Join Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
+              <p>Example off Newsletter input</p>
               <form>
                 <input type="email" name="email" />
                 <button type="button">Subscribe</button>
@@ -102,7 +99,7 @@ const Footer = () => {
       <Container>
         <CopyRightSocialMediaContent>
           <CopyRight>
-            © Copyright <strong>ThemeSwitcher</strong> . All Rights Reserved
+            ©Copyright <strong>Alexandre Monteiro</strong>. License MIT
             <Credits>
               Developed by
               <a href="https://github.com/monteiro-alexandre">

@@ -16,10 +16,11 @@ const Testimonials = () => {
         <SectionTitle>
           <h2>Testimonials</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus
+            Bonorum et Malorum (The Extremes of Good and Evil) by Cicero,
+            written in 45 BC. This book is a treatise on the theory of ethics,
+            very popular during the Renaissance. The first line of Lorem Ipsum,
+            Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.
           </p>
         </SectionTitle>
         <Slider
@@ -61,9 +62,9 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora
-              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
-              aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Many desktop publishing packages and web page editors now use
+              Lorem Ipsum as their default model text, and a search for lorem
+              ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>
@@ -77,9 +78,8 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Export tempor illum tamen malis malis eram quae irure esse labore
-              quem cillum quid cillum eram malis quorum velit fore eram velit
-              sunt aliqua noster fugiat irure amet legam anim culpa.
+              Lorem Ipsum publishing packages and web page editors now use Lorem
+              Ipsum as their default model text, and a search for lorem ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>
@@ -93,9 +93,8 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Enim nisi quem export duis labore cillum quae magna enim sint
-              quorum nulla quem veniam duis minim tempor labore quem eram duis
-              noster aute amet eram fore quis sint minim.
+              Generate Lorem Ipsum web page editors now use Lorem Ipsum as their
+              default model text, and a search for lorem ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>
@@ -109,9 +108,8 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
-              export minim fugiat minim velit minim dolor enim duis veniam ipsum
-              anim magna sunt elit fore quem dolore labore.
+              Lorem Ipsum publishing packages and web page editors now use Lorem
+              Ipsum as their default model text, and a search for lorem ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>
@@ -125,9 +123,9 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-              veniam tempor noster veniam enim culpa labore duis sunt culpa
-              nulla illum cillum fugiat legam esse veniam culpa.
+              Many desktop publishing packages and web page editors now use
+              Lorem Ipsum as their default model text, and a search for lorem
+              ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>
@@ -141,9 +139,8 @@ const Testimonials = () => {
               <QuoteLeftIcon>
                 <FaQuoteLeft size={26} color="#b1a9fc" />
               </QuoteLeftIcon>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora
-              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
-              aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Generate Lorem Ipsum web page editors now use Lorem Ipsum as their
+              default model text, and a search for lorem ipsum.
               <QuoteRightIcon>
                 <FaQuoteRight size={26} color="#b1a9fc" />
               </QuoteRightIcon>

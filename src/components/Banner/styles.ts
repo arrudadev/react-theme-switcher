@@ -33,6 +33,11 @@ export const TitleContent = styled.div`
 
   order: 2;
 
+  img {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
   @media (min-width: 992px) {
     order: 1;
     padding-top: 0 !important;

@@ -23,10 +23,11 @@ const Technologies = () => {
           <SectionTitle>
             <h2>Technologies</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using Content here, content
+              here, making it look like readable English.
             </p>
           </SectionTitle>
           <TechnologiesRow>
@@ -35,10 +36,7 @@ const Technologies = () => {
             </TechnologiesContentImage>
 
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={2}>
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
+              <h3>React</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,10 +60,7 @@ const Technologies = () => {
 
           <TechnologiesRow marginTop="100px">
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={1}>
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
+              <h3>Styled Components</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -97,10 +92,7 @@ const Technologies = () => {
             </TechnologiesContentImage>
 
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={2}>
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
+              <h3>Responsive Layout</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -124,10 +116,7 @@ const Technologies = () => {
 
           <TechnologiesRow marginTop="100px">
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={1}>
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
+              <h3>Open Source</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
