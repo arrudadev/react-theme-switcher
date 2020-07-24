@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a5c7d153715290ed5c9d8b0386648d9",
+    "revision": "eb14d704ac286d9a43f7c88430b4deb6",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2b62c9fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "182e703d30cf63557e7e",
-    "url": "/static/js/main.4794b2a3.chunk.js"
+    "revision": "d71fae330f6c78c86da0",
+    "url": "/static/js/main.828149db.chunk.js"
   },
   {
     "revision": "e169b5ddd8e90c07e068",
@@ -24,28 +24,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/alexandre-monteiro.052f1d3a.png"
   },
   {
-    "revision": "d257dc26de972a1a83ceb4b011f96622",
-    "url": "/static/media/background-1.d257dc26.svg"
+    "revision": "a061df0a292b9a6d949035cdb2ad94f8",
+    "url": "/static/media/background-1.a061df0a.svg"
   },
   {
-    "revision": "580f6de124bfc95ab0c5416a785af3ac",
-    "url": "/static/media/background-2.580f6de1.svg"
+    "revision": "473a1ec6a9f74bf9fedb3c935d45faff",
+    "url": "/static/media/background-2.473a1ec6.svg"
   },
   {
-    "revision": "ffe3f788fdebf5a8d226c784dcf45853",
-    "url": "/static/media/background-3.ffe3f788.svg"
+    "revision": "8978b0b97c1c1d7d3239b8e8875fe6c1",
+    "url": "/static/media/background-3.8978b0b9.svg"
   },
   {
-    "revision": "f43f76c415ca2d3d4d88c8a3d3f5ebe4",
-    "url": "/static/media/background-4.f43f76c4.svg"
+    "revision": "752d1b891e8e4e73360d0f233442fa28",
+    "url": "/static/media/background-4.752d1b89.svg"
   },
   {
-    "revision": "f7afb745179748ede2ed5d2dbe54ef3c",
-    "url": "/static/media/background-5.f7afb745.svg"
+    "revision": "594bb31dd93601ce0bd5c4570cf035c9",
+    "url": "/static/media/background-5.594bb31d.svg"
   },
   {
-    "revision": "bd46bcf97a5b964bad681f92a32b1415",
-    "url": "/static/media/background-6.bd46bcf9.svg"
+    "revision": "a4e4d0301aa1dc7dac4be41586487ae5",
+    "url": "/static/media/background-6.a4e4d030.svg"
   },
   {
     "revision": "b53c02f0a26617a21d6f92c60537be64",

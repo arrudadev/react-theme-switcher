@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.4794b2a3.chunk.js",
-    "main.js.map": "/static/js/main.4794b2a3.chunk.js.map",
+    "main.js": "/static/js/main.828149db.chunk.js",
+    "main.js.map": "/static/js/main.828149db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5edb8bef.js",
     "runtime-main.js.map": "/static/js/runtime-main.5edb8bef.js.map",
     "static/js/2.2b62c9fa.chunk.js": "/static/js/2.2b62c9fa.chunk.js",
     "static/js/2.2b62c9fa.chunk.js.map": "/static/js/2.2b62c9fa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b6cd8ff2686801bc43237c513132883f.js": "/precache-manifest.b6cd8ff2686801bc43237c513132883f.js",
+    "precache-manifest.76a27abaf33be306a3a1ecc21cd06c6a.js": "/precache-manifest.76a27abaf33be306a3a1ecc21cd06c6a.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.2b62c9fa.chunk.js.LICENSE.txt": "/static/js/2.2b62c9fa.chunk.js.LICENSE.txt",
     "static/media/alexandre-monteiro.png": "/static/media/alexandre-monteiro.052f1d3a.png",
-    "static/media/background-1.d257dc26.svg": "/static/media/background-1.d257dc26.svg",
-    "static/media/background-2.580f6de1.svg": "/static/media/background-2.580f6de1.svg",
-    "static/media/background-3.ffe3f788.svg": "/static/media/background-3.ffe3f788.svg",
-    "static/media/background-4.f43f76c4.svg": "/static/media/background-4.f43f76c4.svg",
-    "static/media/background-5.f7afb745.svg": "/static/media/background-5.f7afb745.svg",
-    "static/media/background-6.bd46bcf9.svg": "/static/media/background-6.bd46bcf9.svg",
+    "static/media/background-1.a061df0a.svg": "/static/media/background-1.a061df0a.svg",
+    "static/media/background-2.473a1ec6.svg": "/static/media/background-2.473a1ec6.svg",
+    "static/media/background-3.8978b0b9.svg": "/static/media/background-3.8978b0b9.svg",
+    "static/media/background-4.752d1b89.svg": "/static/media/background-4.752d1b89.svg",
+    "static/media/background-5.594bb31d.svg": "/static/media/background-5.594bb31d.svg",
+    "static/media/background-6.a4e4d030.svg": "/static/media/background-6.a4e4d030.svg",
     "static/media/banner-background.jpg": "/static/media/banner-background.b53c02f0.jpg",
     "static/media/footer-background.jpg": "/static/media/footer-background.04a46e40.jpg",
     "static/media/undraw_avatar_female.png": "/static/media/undraw_avatar_female.1021a8a2.png",
@@ -33,6 +33,6 @@
   "entrypoints": [
     "static/js/runtime-main.5edb8bef.js",
     "static/js/2.2b62c9fa.chunk.js",
-    "static/js/main.4794b2a3.chunk.js"
+    "static/js/main.828149db.chunk.js"
   ]
 }
