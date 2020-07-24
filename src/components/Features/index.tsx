@@ -32,32 +32,33 @@ const Features = () => {
                 <FiBookmark size={48} color="#5846f9" />
                 <h4>Star on GitHub</h4>
                 <p>
-                  Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                  laboris nisi ut aliquip
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </FeatureItem>
               <FeatureItem>
                 <FiCalendar size={48} color="#5846f9" />
                 <h4>Fork on Github</h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt
+                  Lorem Ipsum has been the industry standard dummy text ever
+                  since the 1500s.
                 </p>
               </FeatureItem>
               <FeatureItem>
                 <FiCamera size={48} color="#5846f9" />
                 <h4>Web Design</h4>
                 <p>
-                  Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                  maiores omnis facere
+                  Lorem Ipsum passages, and more recently with desktop
+                  publishing software like Aldus PageMaker including versions of
+                  Lorem Ipsum.
                 </p>
               </FeatureItem>
               <FeatureItem>
                 <FiGithub size={48} color="#5846f9" />
                 <h4>GitHub repository</h4>
                 <p>
-                  Expedita veritatis consequuntur nihil tempore laudantium vitae
-                  denat pacta
+                  The generated Lorem Ipsum is therefore always free from
+                  repetition, injected humour, or non-characteristic words etc.
                 </p>
               </FeatureItem>
             </FeatureContentItems>

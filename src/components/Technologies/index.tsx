@@ -38,21 +38,23 @@ const Technologies = () => {
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={2}>
               <h3>React</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
               </p>
               <ul>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Typescript
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  Javascript
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullam est qui quos consequatur eos accusamus.
+                  Context API
                 </li>
               </ul>
             </TechnologiesContentText>
@@ -62,21 +64,21 @@ const Technologies = () => {
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={1}>
               <h3>Styled Components</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
               </p>
               <ul>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Create styles with components.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  Animations.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullam est qui quos consequatur eos accusamus.
+                  Theme Switcher.
                 </li>
               </ul>
             </TechnologiesContentText>
@@ -94,21 +96,21 @@ const Technologies = () => {
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={2}>
               <h3>Responsive Layout</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                The generated Lorem Ipsum is therefore always free from
+                repetition, injected humour, or non-characteristic words etc.
               </p>
               <ul>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  CSS.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  Media Queries.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullam est qui quos consequatur eos accusamus.
+                  Random Class Names.
                 </li>
               </ul>
             </TechnologiesContentText>
@@ -118,21 +120,21 @@ const Technologies = () => {
             <TechnologiesContentText order={2} orderInMediumAndUpWidth={1}>
               <h3>Open Source</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Various versions have evolved over the years, sometimes by
+                accident, sometimes on purpose (injected humour and the like).
               </p>
               <ul>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  GitHub Repository.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  GitHub Pages.
                 </li>
                 <li>
                   <FiCheck size={20} color="#3b4ef8" />
-                  Ullam est qui quos consequatur eos accusamus.
+                  Git version control.
                 </li>
               </ul>
             </TechnologiesContentText>
