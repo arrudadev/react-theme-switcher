@@ -33,12 +33,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
-        git remote set-url origin https://monteiro-alexandre:${github_token}@github.com/${repository}
+        git config --global user.name ${{secrets.DEPLOY_EMAIL}}
+        git config --global user.email ${{secrets.DEPLOY_USERNAME}}
+        git remote set-url origin https://${{secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}@github.com/${{secrets.DEPLOY_USERNAME}}/react-theme-switcher.git
         yarn run deploy
-      env:
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-        repository: ${{ github.repository }}        
