@@ -28,9 +28,5 @@ jobs:
     - name: Install dependencies
       run: yarn
     
-    - name: Deploy
-      run: |
-        git config --global user.name ${{secrets.DEPLOY_USERNAME}}
-        git config --global user.email ${{secrets.DEPLOY_EMAIL}}
-        git remote set-url origin https://${{secrets.DEPLOY_USERNAME}}:${{secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}@github.com/${{secrets.DEPLOY_USERNAME}}/react-theme-switcher.git
-        yarn run deploy
+    - name: Build
+      run: yarn run build
