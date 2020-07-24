@@ -23,6 +23,7 @@ const Testimonials = () => {
           </p>
         </SectionTitle>
         <Slider
+          arrows={false}
           dots
           autoplay
           infinite
