@@ -31,7 +31,7 @@ jobs:
     - name: Deploy
       uses: awb-pw/deploy-to-github-pages-action@1.1.1
       env:
-        AUTHOR: Alexandre Monteiro
+        AUTHOR: monteiro-alexandre
         BUILD_PATH: public
         GITHUB_PAGE_NAME: monteiro-alexandre.github.io
         PA_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
