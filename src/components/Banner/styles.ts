@@ -79,7 +79,7 @@ export const ImageContent = styled.div`
   justify-content: center;
   animation: 1s ${ImageFadeIn} ease-out;
 
-  img {
+  svg {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -90,19 +90,19 @@ export const ImageContent = styled.div`
   order: 1;
 
   @media (max-width: 575px) {
-    img {
+    svg {
       width: 80%;
     }
   }
 
   @media (max-width: 768px) and (min-width: 575px) {
-    img {
+    svg {
       width: 60%;
     }
   }
 
   @media (max-width: 991px) and (min-width: 768px) {
-    img {
+    svg {
       width: 50%;
     }
   }

@@ -34,7 +34,7 @@ export const FeatureContentImage = styled.div`
   padding-left: 15px;
   order: 1;
 
-  img {
+  svg {
     max-width: 100%;
     height: auto;
     vertical-align: middle;

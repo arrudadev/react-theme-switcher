@@ -1,7 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 
-import BannerImg from '../../assets/banner-img.png';
+import { ReactComponent as UndrawLandingPage } from '../../assets/undraw_landing_page.svg';
 
 import { ContainerFluid, Row } from '../../styles/styles';
 import { Section, TitleContent, ImageContent, Title, SubTitle } from './styles';
@@ -19,7 +19,7 @@ const Banner = () => {
               </SubTitle>
             </TitleContent>
             <ImageContent>
-              <img src={BannerImg} alt="Banner" />
+              <UndrawLandingPage />
             </ImageContent>
           </Row>
         </ContainerFluid>

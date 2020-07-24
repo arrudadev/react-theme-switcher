@@ -2,7 +2,7 @@ import React from 'react';
 import { FiCheckCircle, FiArrowRight } from 'react-icons/fi';
 import { Element } from 'react-scroll';
 
-import AboutImg from '../../assets/about.jpg';
+import { ReactComponent as UndrawTeamSpirit } from '../../assets/undraw_team_spirit.svg';
 
 import { Container, Row, LinkButton } from '../../styles/styles';
 import {
@@ -59,7 +59,7 @@ const About = () => {
               </LinkButton>
             </TitleContent>
             <ImageContent>
-              <img src={AboutImg} alt="about" />
+              <UndrawTeamSpirit />
             </ImageContent>
           </Row>
         </Container>

@@ -30,7 +30,7 @@ export const TitleContent = styled(Content)`
 export const ImageContent = styled(Content)`
   order: 1;
 
-  img {
+  svg {
     max-width: 100%;
     height: auto;
     vertical-align: middle;

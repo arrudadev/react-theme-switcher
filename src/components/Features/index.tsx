@@ -2,7 +2,7 @@ import React from 'react';
 import { FiBookmark, FiCalendar, FiCamera, FiGithub } from 'react-icons/fi';
 import { Element } from 'react-scroll';
 
-import FeaturesImage from '../../assets/features.svg';
+import { ReactComponent as UndrawProgrammer } from '../../assets/undraw_programmer.svg';
 
 import { Container, SectionTitle, Row } from '../../styles/styles';
 import {
@@ -62,7 +62,7 @@ const Features = () => {
               </FeatureItem>
             </FeatureContentItems>
             <FeatureContentImage>
-              <img src={FeaturesImage} alt="Features" />
+              <UndrawProgrammer />
             </FeatureContentImage>
           </Row>
         </Container>
