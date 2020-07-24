@@ -34,9 +34,9 @@ const NavBar = () => {
             <Content>
               <Brand>ThemeSwitcher</Brand>
               <NavItems>
-                <MenuItems />
+                <MenuItems isSideNavOpen={sideNavOpen} />
                 <MenuToggleButton onClick={handleDrawerToggle}>
-                  <FiMenu color="black" size={30} />
+                  <FiMenu size={30} />
                 </MenuToggleButton>
               </NavItems>
             </Content>

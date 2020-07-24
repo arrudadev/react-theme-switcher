@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 interface MenuListItemProps {
   isActive: boolean;
+  isSideNavOpen: boolean;
 }
 
 export const MenuList = styled.ul`
@@ -13,7 +14,8 @@ export const MenuListItem = styled.li<MenuListItemProps>`
   position: relative;
 
   & :hover {
-    color: #fff;
+    color: ${props =>
+      props.isSideNavOpen ? props.theme.colors.sideNav.menuItem : '#fff'};
   }
 
   a {
@@ -25,7 +27,13 @@ export const MenuListItem = styled.li<MenuListItemProps>`
       height: 2px;
       bottom: -5px;
       left: 0;
-      background-color: #fff;
+      background-color: ${props => {
+        if (props.isSideNavOpen) {
+          return props.theme.title === 'dark' ? '#fff' : 'rgba(0, 0, 0, 0.5)';
+        }
+
+        return '#fff';
+      }};
       visibility: ${props => (props.isActive ? 'visible' : 'hidden')};
       width: ${props => (props.isActive ? '100%' : '0px')};
       transition: all 0.3s ease-in-out 0s;

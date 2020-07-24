@@ -80,6 +80,7 @@ export const MenuToggleButton = styled.button`
   background-color: transparent;
   border: none;
   display: none;
+  color: ${props => (props.theme.title === 'dark' ? '#fff' : '#222')};
 
   @media (max-width: 1380px) {
     display: block;

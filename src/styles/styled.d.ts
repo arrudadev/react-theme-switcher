@@ -37,6 +37,14 @@ declare module 'styled-components' {
         linkText: string;
       };
 
+      sideNav: {
+        modalOverlayBackground: string;
+        drawerBackground: string;
+        menuItemBorderBottom: string;
+        menuItem: string;
+        closeButton: string;
+      };
+
       banner: {
         title: string;
         subTitle: string;

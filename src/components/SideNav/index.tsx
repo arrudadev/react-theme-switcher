@@ -13,13 +13,13 @@ interface SideNavProps {
 const SideNav: React.FC<SideNavProps> = ({ sideNavOpen, onClose }) => {
   return (
     <>
-      <ModalOverlay isOpen={sideNavOpen} />
+      <ModalOverlay isOpen={sideNavOpen} onClick={onClose} />
       <Drawer isOpen={sideNavOpen}>
         <DrawerContainer>
           <CloseButton onClick={onClose}>
             <FiX size={30} />
           </CloseButton>
-          <MenuItems />
+          <MenuItems isSideNavOpen={sideNavOpen} onClose={onClose} />
         </DrawerContainer>
       </Drawer>
     </>

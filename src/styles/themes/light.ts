@@ -34,6 +34,14 @@ export default {
       linkText: 'rgba(255, 255, 255, 0.7)',
     },
 
+    sideNav: {
+      modalOverlayBackground: '#000',
+      drawerBackground: '#fff',
+      menuItemBorderBottom: 'rgba(0, 0, 0, 0.2)',
+      menuItem: 'rgba(0, 0, 0, 0.8)',
+      closeButton: '#000',
+    },
+
     banner: {
       title: '#fff',
       subTitle: 'rgba(255, 255, 255, 0.8)',

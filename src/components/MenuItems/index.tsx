@@ -35,7 +35,12 @@ interface ActiveItems {
   };
 }
 
-const MenuItems = () => {
+interface MenuItemsProps {
+  isSideNavOpen: boolean;
+  onClose?: () => void;
+}
+
+const MenuItems: React.FC<MenuItemsProps> = ({ isSideNavOpen, onClose }) => {
   const [activeItems, setActiveItems] = useState<ActiveItems>({
     home: {
       isActive: true,
@@ -72,11 +77,18 @@ const MenuItems = () => {
       }
     }
     setActiveItems({ ...activeItems });
+
+    if (isSideNavOpen && onClose) {
+      onClose();
+    }
   }
 
   return (
     <MenuList>
-      <MenuListItem isActive={activeItems.home.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.home.isActive}
+      >
         <Link
           to="banner"
           spy
@@ -87,7 +99,10 @@ const MenuItems = () => {
           Home
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.about.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.about.isActive}
+      >
         <Link
           to="about"
           spy
@@ -98,7 +113,10 @@ const MenuItems = () => {
           About
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.services.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.services.isActive}
+      >
         <Link
           to="services"
           spy
@@ -109,7 +127,10 @@ const MenuItems = () => {
           Services
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.features.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.features.isActive}
+      >
         <Link
           to="features"
           spy
@@ -120,7 +141,10 @@ const MenuItems = () => {
           Features
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.technologies.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.technologies.isActive}
+      >
         <Link
           to="technologies"
           spy
@@ -131,7 +155,10 @@ const MenuItems = () => {
           Technologies
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.team.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.team.isActive}
+      >
         <Link
           to="team"
           spy
@@ -142,7 +169,10 @@ const MenuItems = () => {
           Team
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.pricing.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.pricing.isActive}
+      >
         <Link
           to="pricing"
           spy
@@ -153,7 +183,10 @@ const MenuItems = () => {
           Pricing
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={activeItems.contact.isActive}>
+      <MenuListItem
+        isSideNavOpen={isSideNavOpen}
+        isActive={activeItems.contact.isActive}
+      >
         <Link
           to="contact"
           spy
@@ -164,7 +197,7 @@ const MenuItems = () => {
           Contact
         </Link>
       </MenuListItem>
-      <MenuListItem isActive={false}>
+      <MenuListItem isSideNavOpen={isSideNavOpen} isActive={false}>
         <ToggleThemeButton />
       </MenuListItem>
     </MenuList>
