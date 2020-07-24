@@ -1,5 +1,5 @@
 <h1>
-  <a href="#">
+  <a href="https://monteiro-alexandre.github.io/react-theme-switcher/">
     ReactThemeSwitcher
   </a>
 </h1>
