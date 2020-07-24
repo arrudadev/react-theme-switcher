@@ -4,6 +4,10 @@
   </a>
 </h1>
 
+![build](https://github.com/monteiro-alexandre/react-theme-switcher/workflows/build/badge.svg?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 Lading page with Dark/Light theme switcher.
 
 ## 💻 Technologies
@@ -40,6 +44,10 @@ yarn start
 ```
 
 To view the project you can open [localhost:3000](http://localhost:3000).
+
+## 🤔 Contributing
+
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on the code of conduct and the process for submitting pull requests.
 
 ## License
 
