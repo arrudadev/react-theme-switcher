@@ -15,9 +15,9 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2.3.1
+      uses: actions/checkout@v2
       with:
-        persist-credentials: false
+        fetch-depth: 0
 
     - name: Set up Node
       uses: actions/setup-node@v1
@@ -29,8 +29,9 @@ jobs:
       run: yarn
 
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@3.5.7
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
+      uses: awb-pw/deploy-to-github-pages-action@1.1.1
+      env:
+        AUTHOR: Alexandre Monteiro
+        BUILD_PATH: public
+        GITHUB_PAGE_NAME: monteiro-alexandre.github.io
+        PA_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
