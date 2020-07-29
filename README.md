@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Lading page with Dark/Light theme switcher.
+Landing page with Dark/Light theme switcher.
 
 ## 💻 Technologies
 
