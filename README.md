@@ -10,6 +10,18 @@
 
 Landing page with Dark/Light theme switcher.
 
+<br>
+
+<p align="center">
+  <img alt="LandingaPage" src=".github/assets/landing-page.png" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="LandingaPageDark" src=".github/assets/landing-page-dark.png" width="100%">
+</p>
+
 ## 💻 Technologies
 
 This project was developed with the following technologies:
